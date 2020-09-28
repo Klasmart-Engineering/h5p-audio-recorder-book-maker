@@ -1,0 +1,57 @@
+{
+  "name": "h5p-audio-recorder-book-maker",
+  "version": "0.0.1",
+  "description": "H5P content type for recording audio",
+  "scripts": {
+    "test": "ava",
+    "build": "cross-env NODE_ENV='production' webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h5p/h5p-audio-recorder.git"
+  },
+  "author": "Joubel",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "browser-env": "^2.0.30",
+    "cross-env": "^4.0.0",
+    "css-loader": "^3.6.0",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "node-sass": "^4.14.1",
+    "raw-loader": "^0.5.1",
+    "require-extension-hooks": "^0.2.0",
+    "require-extension-hooks-babel": "^0.1.0",
+    "require-extension-hooks-vue": "^0.2.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.13.2",
+    "timer-machine": "^1.1.0",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^11.2.0",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^2.7.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "ava": {
+    "babel": {
+      "presets": [
+        "@ava/stage-4",
+        "stage-3"
+      ]
+    },
+    "require": [
+      "babel-polyfill",
+      "./tests/helpers/setup.js"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Audio Recorder (BookMaker)",
+  "description": "Record audio and use it",
+  "machineName": "H5P.AudioRecorderBookMaker",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 0,
+  "author": "CalmIsland",
+  "license": "MIT",
+  "embedTypes": [
+    "iframe"
+  ],
+  "preloadedCss": [
+    {
+      "path": "fonts/h5p-audio-recorder-font-open-sans.css"
+    }
+  ],
+  "preloadedJs": [
+    {
+      "path": "dist/h5p-audio-recorder-book-maker.js"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "FontAwesome",
+      "majorVersion": 4,
+      "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.FontIcons",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ]
+}
