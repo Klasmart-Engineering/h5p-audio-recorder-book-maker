@@ -24,7 +24,7 @@
     "css-loader": "^6.2.0",
     "raw-loader": "^0.5.1",
     "require-extension-hooks": "^0.2.0",
-    "require-extension-hooks-babel": "^0.1.0",
+    "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-vue": "^0.2.1",
     "sass": "^1.36.0",
     "sass-loader": "^12.0.0",
